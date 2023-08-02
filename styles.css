@@ -1,32 +1,18 @@
-  @import url(styles/header.css);
-  :root{
-    --cor-de-fundo:#EBECEE;
-    --branco:#FFFFFF;
-  }
 
-  body{
+@import url(style/header.css);
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+
+}
+
+body{
     background-color: var(--cor-de-fundo);
-  }
-  .cabeçalho__menu-hanburguer{
-    width: 24px;
-    height: 24px;
-    background-image: url(..img/menu.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-  }
-  .cabeçalho{
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .container{
-    display: flex;
-    align-items: center;
+}
 
-  }
-  .container__imagem{
-    padding: 1em;
- }
- 
